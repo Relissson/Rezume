@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+    background-color: #f1f1f1;
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.tetle {
+    display: flex;
+    margin: auto;
+}
+@media (max-width: 700px) {
+    .tetle {
+        display: block;
+        text-align: center;
+    }
+}
+.tetle-text {
+    display: block;
+    padding: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.card1 {
+    padding-bottom: 15px;
+    margin: 20px;
+}
+
+.avatar {
+    width: 200;
+    border-radius: 50px;
+    box-shadow: 6px 6px 18px #000000;
+}
+
+.title p {
+    text-decoration: underline;
+}
+.conteiner {
+    margin: auto;
+}
+.bg-yellow {
+    background-color: #fff9dc;
+}
+
+.bg-green {
+    background-color: #e5ffe7;
+}
+
+.bg-red {
+    background-color: #ffe5e5;
+}
+/* Box Model */
+
+.card {
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.str label {
+    display: block;
+}
+.str input,
+.str textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 5px;
+    outline: none;
+    font-family: inherit;
+}
+.btn {
+    color: rgb(255, 255, 255);
+    padding: 15px, 20px;
+    width: 250px;
+    background-color: black;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+/* .row {
+    display: flex;
+} */
